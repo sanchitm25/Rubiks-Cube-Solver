@@ -56,7 +56,7 @@ for index, (piece_faces, sticker_face) in enumerate(STICKERS):
 class CubeGUI:
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title("Rubik's Solver")
+        self.root.title("Rubik's Cube Solver")
         self.selected_color = "Grey"
         self.grid_colors = {}
         self.rects = {}
